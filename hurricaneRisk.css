@@ -1,0 +1,74 @@
+
+#cover {
+ 	height: 500px;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("hurricaneCover.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ 	
+#title {
+   font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    color: ivory;
+    font-size: 55px;
+}
+body{
+    margin:0;
+    padding:0;
+}
+button{
+	position:absolute;
+	top: 340px;
+	left: 450px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	border-radius:25px;
+ border: 0 !important;
+	background-color: ivory;
+	color: grey;
+	width: 200px;
+	height:40px;
+}
+button:hover{
+	background-color: silver;
+	color:black;
+}
+label{
+	position:absolute;
+	top:270px;
+	left:200px;
+}
+#inputCity{
+	color:ivory;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+input{
+	 border: 0 !important;
+	height:30px;
+	width:400px;
+	border-radius:5px;
+	background-color:ivory;
+}
+#nav{
+	position:absolute;
+	top: 20px;
+	right: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+a{
+	color: ivory;
+		text-decoration:none;
+}
+a:hover{
+	color: grey;
+
+}
