@@ -70,5 +70,31 @@ a{
 }
 a:hover{
 	color: grey;
-
+}
+.column{
+	float: left;
+	width: 33%;
+}
+#stats{
+	margin-top: 50px;
+}
+#stats:after{
+	   content: "";
+				display: table;
+				clear: both;
+}
+.icon{
+				display:block;
+    margin:auto;
+}
+#center{
+	margin-top: 15px;
+	font-family: 'Arapey', serif;
+	font-size: 20px;
+	text-align:center;
+}
+h2{
+	margin-left: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
 }

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Montserrat|Smythe" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="pennapps.css">
+      <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Montserrat|Smythe|Arapey" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="hurricaneRisk.css">
       <title>
         Hurricane Risk Management
       </title>
       <body>
-          
-          <div id="cover">
+          <div id="calculateRisk">
+            <div id="cover">
           </div>
-          <div id="nav"><a href="#">Calculate Risk</a> &nbsp;&nbsp;<a href="#">Stats</a> &nbsp;&nbsp;<a href="#">Precautions</a>&nbsp;&nbsp;<a href="#">Contact</a></div>
+          <div id="nav"><a href="#calculateRisk">Calculate Risk</a> &nbsp;&nbsp;<a href="#stats">Stats</a> &nbsp;&nbsp;<a href="#precaution">Precautions</a>&nbsp;&nbsp;<a href="#">Contact</a></div>
           <h1 id="title">
           Manage Your Hurricane Risk
           </h1>
@@ -18,8 +18,23 @@
             <span id="inputCity"s>Enter Your City:</span>&nbsp;&nbsp;
             <input type="text">
           </label>
-          
           <button type="button" >Launch</button>
+          </div>
+          <div id="stats">
+          <!--Images from flaticon, information from https://coast.noaa.gov/states/fast-facts/hurricane-costs.html-->
+          <div class="column"><img class="icon" src="001-budget.png"><figcaption id="center">Total $515.4 billion<br>Insured Losses, 1986-2015, Adjusted For Inflation</figcaption></div>
+          <div class="column"><img class="icon" src="002-team.png"><figcaption id="center">17 Lives<br>Hurricanes annually account for 17 deaths</figcaption></div>
+          <div class="column"><img class="icon" src="003-typhoon.png"><figcaption id="center">Katrina, 2005, $161 Billion<br>Top Costliest Hurricane in U.S. Records</figcaption></div>
+          </div>
+          <div id="precaution">
+            <h2>
+              How To Get Prepared For A Hurricane
+            </h2>
+            <div id="prep1">
+            <div class="column1"><img class="icon1" src ="001-warning.png"><figcaption id="center">Listen to weather reports frequently if you live in areas prone to hurricanes. If there are warnings, get prepared to an upcoming hurricane.</figcaption></div>
+            <div class="column1"><img class="icon1" src ="002-shelter.png"><figcaption id="center">You need to form evacuation plans after the weather warning, get to know the nearst shelter and identify a rout to get there in emergency.</figcaption></div>
+            </div>
+          </div>
       </body>
     </head>
   </html>
