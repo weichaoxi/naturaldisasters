@@ -3,6 +3,8 @@
     <head>
       <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Montserrat|Smythe|Arapey" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="hurricaneRisk.css">
+      <script type="text/javascript" src="client.js"></script>
+      <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" type="text/javascript"></script> -->
       <title>
         Hurricane Risk Management
       </title>
@@ -16,10 +18,13 @@
           </h1>
           <label>
             <span id="inputCity"s>Enter Your City:</span>&nbsp;&nbsp;
-            <input type="text">
+            <input type="text" id="location" placeholder="Enter a location">
           </label>
-          <button type="button" >Launch</button>
+          <button type="button" onclick=getInfo()>Launch</button>
           </div>
+
+          <div id="map"></div> <!--where the map appears after making request-->
+
           <div id="stats">
           <!--Images from flaticon, information from https://coast.noaa.gov/states/fast-facts/hurricane-costs.html-->
           <div class="column"><img class="icon" src="001-budget.png"><figcaption id="center">Total $515.4 billion<br>Insured Losses, 1986-2015, Adjusted For Inflation</figcaption></div>
