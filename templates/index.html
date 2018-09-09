@@ -4,7 +4,8 @@
       <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Montserrat|Smythe|Arapey" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
     
-      <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDENESEeI4R2C06vKV416XrYFdAcaUlxuk"></script>
       <script type="text/javascript" src="{{ url_for('static', filename='client.js') }}"></script>
       
       <title>
@@ -26,6 +27,7 @@
           </div>
 
           <div id="map"></div> <!--where the map appears after making request-->
+          <div id="risk"></div> <!-- risk info-->
 
           <div id="stats">
             <h2>
