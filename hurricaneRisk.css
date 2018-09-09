@@ -76,18 +76,19 @@ a:hover{
 	width: 33%;
 }
 #stats{
-	margin-top: 50px;
+	margin-top: 100px;
 }
 #stats:after{
 	   content: "";
 				display: table;
 				clear: both;
 }
-.icon{
+.icon,.icon1{
 				display:block;
     margin:auto;
 }
-#center{
+.center{
+	padding:35px;
 	margin-top: 15px;
 	font-family: 'Arapey', serif;
 	font-size: 20px;
@@ -97,4 +98,30 @@ h2{
 	margin-left: 30px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
+}
+#prep1{
+	margin-top:30px;
+}
+#prep1:after{
+	   content: "";
+				display: table;
+				clear: both;
+}
+.column1{
+	float: left;
+	width: 50%;
+}
+#precaution{
+	margin-top:100px;
+}
+#contact{
+	margin-top:100px;
+	height:150px;
+}
+.move{
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+}
+div.move2{
+	margin-top: 10px;
 }
